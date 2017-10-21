@@ -4,22 +4,19 @@ import { BrowserModule } from "@angular/platform-browser";
 import { CoreModule } from "./core/core.module";
 
 import { AppComponent } from "./app.component";
-
 import { NavComponent } from "./nav/nav.component";
-import { GalleryModule } from "./gallery/gallery.module";
-import { GalleryComponent } from "./gallery/gallery.component";
+import { TitleComponent } from "./title/title.component";
 
 @NgModule({
     imports: [
       BrowserModule,
-      GalleryModule
     ],
     declarations: [
       AppComponent,
-      GalleryComponent,
-      NavComponent
+      NavComponent,
+      TitleComponent
    ],
-    bootstrap: [ AppComponent, GalleryComponent, NavComponent],
+    bootstrap: [ AppComponent],
     entryComponents: [ AppComponent ]
 })
 export class AppModule {}

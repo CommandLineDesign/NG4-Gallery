@@ -1,5 +1,4 @@
-import { Component, OnInit } from '@angular/core';
-import { CarouselComponent } from '../carousel/carousel.component';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'responsive-gallery',

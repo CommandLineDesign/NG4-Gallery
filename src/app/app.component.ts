@@ -8,5 +8,5 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   message = 'App component';
-
+  brand = 'Tony Moly';
 }
