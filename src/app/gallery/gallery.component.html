@@ -1,0 +1,11 @@
+<ImageModal [attr.modalImages]="Images"></ImageModal>
+<h2>  Example with thumbnail pointers </h2>
+<div *ngFor="let img of Images; let i= index">
+  <div class="float-left" *ngIf="i <= 2" >
+    <a class="more" *ngIf="i==2" (click)="OpenImageModel(img.img,Images)"> +{{Images.length - 3}} more </a>
+    <img class="list-img" src="{{img.thumb}}"(click)="OpenImageModel(img.img,Images)" alt='Image' />
+  </div>
+</div>
+<div *ngIf="openModalWindow">
+  <ImageModal [modalImages]="Images" [imagePointer] = "imagePointer" (cancelEvent) ="cancelImageModel()"></ImageModal>
+</div>
