@@ -1,10 +1,45 @@
-memebox-app {
-    div.responsive-gallery{
-        li img.meme{
-            height: 160px;
-            width: 160px;
-            margin: auto;
-        }
+ul.responsive-gallery{
+    max-width: 700px;
+    list-style: none;
+    margin: auto;
+
+    li {
+      display: inline-block;
+
+      img.thumb{
+        height: 160px;
+        width: 160px;
+        padding: 3px;
+        margin-bottom: -3px;
+        border: none;
+      }
     }
 }
+h3.photoCount {
+  margin: auto;
+  max-width: 700px;
+  padding-top: 19px;
+  padding-bottom: 30px;
+  padding-left: 48px;
+  font-size: 20px;
+  line-height: 24px;
+}
 
+@media screen and (max-width: 1024px) {
+  img.thumb{
+    height: 113px !important;
+    width: 113px !important;
+    padding: 1px !important;
+    margin-bottom: -3px;
+    border: none;
+  }
+  h3.photoCount {
+    margin: auto;
+    max-width: 700px;
+    padding-top: 25px;
+    padding-bottom: 15px;
+    padding-left: 34px;
+    font-size: 16px;
+    line-height: 19px;
+  }
+}
