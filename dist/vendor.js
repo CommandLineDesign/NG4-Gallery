@@ -147,7 +147,7 @@
 /******/ 	__webpack_require__.oe = function(err) { console.error(err); throw err; };
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 470);
+/******/ 	return __webpack_require__(__webpack_require__.s = 478);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -180,10 +180,10 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 470:
+/***/ 478:
 /***/ (function(module, exports) {
 
-//require("jquery");
+
 
 /***/ })
 
