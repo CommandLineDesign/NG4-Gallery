@@ -3774,6 +3774,10 @@ ng2-semantic-ui@^0.9.6:
     popper.js "^1.11.1"
     rxjs "^5.0.1"
 
+ngbox@^0.0.15:
+  version "0.0.15"
+  resolved "https://registry.yarnpkg.com/ngbox/-/ngbox-0.0.15.tgz#105bf5192e08a8bdb65b85d43aa3f8c5f34a98f1"
+
 no-case@^2.2.0:
   version "2.3.2"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-2.3.2.tgz#60b813396be39b3f1288a4c1ed5d1e7d28b464ac"

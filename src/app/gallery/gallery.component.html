@@ -1,6 +1,8 @@
 <h3>Photos · {{images.length}}</h3>
 <ul class="responsive-gallery">
   <li *ngFor="let image of images" (click)="selectedImage=image">
-    <img class="thumb" src="/public/pocketBunny/{{image.url}}" alt="{{image.name}}">
+    <a href="" [width]="500" [height]="500" ng-box group="group2" src="/public/pocketBunny/{{image.url}}" title="{{image.name}}">
+      <img class="thumb" src="/public/pocketBunny/{{image.url}}" title="{{image.name}}" group="group2">
+    </a>
   </li>
 </ul>
