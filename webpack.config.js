@@ -1,8 +1,10 @@
 const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-var HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
 
 const webpack = require("webpack");
+
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const HardSourceWebpackPlugin = require('hard-source-webpack-plugin');
+const GoogleFontsPlugin = require("google-fonts-webpack-plugin")
 
 module.exports = {
   resolve: {
@@ -64,6 +66,11 @@ module.exports = {
     }),
     new webpack.optimize.CommonsChunkPlugin({
       name: 'vendor'
+    }),
+    new GoogleFontsPlugin({
+        fonts: [
+            { family: "Lato" },
+        ]
     })
   ],
   devtool: "source-map",

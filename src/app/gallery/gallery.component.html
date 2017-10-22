@@ -1,4 +1,4 @@
-<h3>Photos · {{images.length}}</h3>
+<h3 class="photoCount">Photos · {{images.length}}</h3>
 <ul class="responsive-gallery">
   <li *ngFor="let image of images" (click)="selectedImage=image">
     <a href="" [width]="500" [height]="500" ng-box group="group2" src="/public/pocketBunny/{{image.url}}" title="{{image.name}}">

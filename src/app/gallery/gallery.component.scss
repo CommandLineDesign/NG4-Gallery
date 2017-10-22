@@ -1,7 +1,7 @@
 ul.responsive-gallery{
-    width: 700px;
-    padding-left: 0px;
+    max-width: 700px;
     list-style: none;
+    margin: auto;
 
     li {
       display: inline-block;
@@ -14,4 +14,23 @@ ul.responsive-gallery{
         border: none;
       }
     }
+}
+h3.photoCount {
+  margin: auto;
+  max-width: 700px;
+  padding-top: 19px;
+  padding-bottom: 30px;
+  padding-left: 48px;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 1024px) {
+  img.thumb{
+    height: 113px !important;
+    width: 113px !important;
+    padding: 3px;
+    margin-bottom: -3px;
+    border: none;
+  }
 }
