@@ -4,7 +4,7 @@ import { NavComponent } from "./nav.component";
 
 @NgModule({
     imports: [NavComponent],
-    bootstrap: [ NavComponent ],
-    entryComponents: [ NavComponent ]
+    bootstrap: [NavComponent],
+    entryComponents: [NavComponent]
 })
 export class NavModule {}

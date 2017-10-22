@@ -6,6 +6,7 @@ import { CoreModule } from "./core/core.module";
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
 import { TitleComponent } from "./title/title.component";
+import { GalleryComponent } from "./gallery/gallery.component";
 
 @NgModule({
     imports: [
@@ -14,7 +15,8 @@ import { TitleComponent } from "./title/title.component";
     declarations: [
       AppComponent,
       NavComponent,
-      TitleComponent
+      TitleComponent,
+      GalleryComponent
    ],
     bootstrap: [ AppComponent],
     entryComponents: [ AppComponent ]

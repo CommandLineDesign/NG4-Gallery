@@ -1,10 +1,17 @@
-memebox-app {
-    div.responsive-gallery{
-        li img.meme{
-            height: 160px;
-            width: 160px;
-            margin: auto;
-        }
+ul.responsive-gallery{
+    width: 700px;
+    padding-left: 0px;
+    list-style: none;
+
+    li {
+      display: inline-block;
+
+      img.thumb{
+        height: 160px;
+        width: 160px;
+        padding: 3px;
+        margin-bottom: -3px;
+        border: none;
+      }
     }
 }
-

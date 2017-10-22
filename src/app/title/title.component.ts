@@ -5,8 +5,7 @@ import {Component, Input} from "@angular/core";
     styles: [ require("./title.component.scss")],
     template: require("./title.component.html")
 })
-
 export class TitleComponent {
   @Input() brand = '';
-  title = 'Pocket Bunny';
+  title = 'Pocket Bunny Moist Mist';
 }
