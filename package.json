@@ -32,7 +32,6 @@
     "@ngtools/webpack": "^1.2.4",
     "@types/npm": "^2.0.29",
     "@types/webpack": "^3.0.13",
-    "cld-ng-box": "^0.0.2",
     "core-js": "^2.5.1",
     "expose-loader": "^0.7.3",
     "file-loader": "^1.1.5",
