@@ -1,11 +1,12 @@
 import { NgModule } from "@angular/core";
 import { BrowserModule } from "@angular/platform-browser";
 
-import { NgBoxModule } from 'ngbox/ngbox.module';
-import { NgBoxService } from 'ngbox/ngbox.service';
 import { CommonModule } from '@angular/common';
 
 import { CoreModule } from "./core/core.module";
+
+import { NgBoxModule } from './ngbox/ngbox.module';
+import { NgBoxService } from './ngbox/ngbox.service';
 
 import { AppComponent } from "./app.component";
 import { NavComponent } from "./nav/nav.component";
