@@ -50491,7 +50491,7 @@ module.exports = "ul.responsive-gallery {\n  max-width: 700px;\n  list-style: no
 /***/ 481:
 /***/ (function(module, exports) {
 
-module.exports = "<h3 class=\"photoCount\">Photos · {{images.length}}</h3>\n<ul class=\"responsive-gallery\">\n  <li *ngFor=\"let image of images\" (click)=\"selectedImage=image\">\n    <a href=\"\" [width]=\"500\" [height]=\"500\" ng-box group=\"group2\" src=\"/public/pocketBunny/{{image.url}}\" title=\"{{image.name}}\">\n      <img class=\"thumb\" src=\"/public/pocketBunny/{{image.url}}\" title=\"{{image.name}}\" group=\"group2\">\n    </a>\n  </li>\n</ul>";
+module.exports = "<h3 class=\"photoCount\">Photos · {{images.length}}</h3>\n<ul class=\"responsive-gallery\">\n  <li *ngFor=\"let image of images\" (click)=\"selectedImage=image\">\n    <a href=\"\" [width]=\"500\" [height]=\"500\" ng-box group=\"group2\" src=\"https://commandlinedesign.github.io/NG4-Gallery/public/pocketBunny/{{image.url}}\" title=\"{{image.name}}\">\n      <img class=\"thumb\" src=\"https://commandlinedesign.github.io/NG4-Gallery/public/pocketBunny/{{image.url}}\" title=\"{{image.name}}\" group=\"group2\">\n    </a>\n  </li>\n</ul>";
 
 /***/ }),
 
