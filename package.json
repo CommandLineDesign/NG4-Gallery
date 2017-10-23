@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "@types/core-js": "^0.9.43",
     "@types/jasmine": "^2.6.0",
@@ -35,6 +38,7 @@
     "core-js": "^2.5.1",
     "expose-loader": "^0.7.3",
     "file-loader": "^1.1.5",
+    "gh-pages": "^1.0.0",
     "google-fonts-webpack-plugin": "^0.4.3",
     "hard-source-webpack-plugin": "^0.4.9",
     "html-loader": "^0.5.1",
