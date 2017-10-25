@@ -27,8 +27,8 @@ OzExMyAwOzEyNS41IDA7MTM4LjUgMDsxNTEuNSAwOzE2NC41IDA7MTc4IDAiIGNhbGNNb2RlPSJkaXNj
 91bnQ9ImluZGVmaW5pdGUiLz48L2c+PC9zdmc+Cg=="/></div>
         <div id="ngBoxWrapper" (click)="closeOutside($event)" *ngIf="ngBox.open" [ngStyle]="{'padding-top': offsetHeight+'px'}">
             <div id="ngBoxContent">
-                <img *ngIf="getHasGroup()" class="left" (click)="previousNgBox()" src="/public/icons/left@2x.png">
-                <img *ngIf="getHasGroup()" class="right" (click)="nextNgBox()" src="/public/icons/right@2x.png">
+                <img *ngIf="getHasGroup()" class="left" (click)="previousNgBox()" src="https://commandlinedesign.github.io/NG4-Gallery/public/icons/left@2x.png">
+                <img *ngIf="getHasGroup()" class="right" (click)="nextNgBox()" src="https://commandlinedesign.github.io/NG4-Gallery/public/icons/right@2x.png">
                 <img id="ngBoxImage" *ngIf="ngBox.current.type == 1"
                      (load)="isLoaded()"
                      #ngBoxContent
@@ -41,7 +41,7 @@ OzExMyAwOzEyNS41IDA7MTM4LjUgMDsxNTEuNSAwOzE2NC41IDA7MTc4IDAiIGNhbGNNb2RlPSJkaXNj
             </p>
             </div>
             <div #ngBoxButtons id="buttons" [hidden]="ngBox.loading">
-                <img (click)="closeNgBox()" id="closeButton" src="/public/icons/close@2x.png" alt="">
+                <img (click)="closeNgBox()" id="closeButton" src="https://commandlinedesign.github.io/NG4-Gallery/public/icons/close@2x.png" alt="">
             </div>
 
         </div>
